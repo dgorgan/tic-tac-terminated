@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic-Tac-Terminated</title>
+  <link rel='stylesheet' href='style.css' />
+  <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> -->
+</head>
+
+<body>
+<span id="soundPlayer"></span>
+  <div id='game-wrap'>
+    <div class='row'>
+      <div class='col' id="one"></div>
+      <div class='col' id="two"></div>
+      <div class='col' id="three"></div>
+    </div>
+    <div class='row'>
+      <div class='col' id="four"></div>
+      <div class='col' id="five"></div>
+      <div class='col' id="six"></div>
+    </div>
+    <div class='row'>
+      <div class='col' id="seven"></div>
+      <div class='col' id="eight"></div>
+      <div class='col' id="nine"></div>
+    </div>
+  </div>
+
+  <div id='panel'>
+    <input type="text" id='player1-1-inp' placeholder='enter player 1'>
+    <input type="text" id='player2-2-inp' placeholder='enter player 2'>
+    <button  id='playButton'>Play!</button>
+    <h1 id='board'></h1>
+  </div>
+  <h2>TIC TAC TERMINATED</h2>
+  <p>Dimitri and Aurelio &copy 2015</p>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="jquery.playSound.js"></script>
+
+  <script src='script.js'></script>
+</body>
+
+</html>
